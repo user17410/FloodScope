@@ -1,0 +1,16 @@
+{
+  "selected_model": "unet_manual",
+  "criterion": "validation pooled water IoU",
+  "validation_water_iou": {
+    "vh_threshold": 0.5194422040752316,
+    "random_forest": 0.5985753906309201,
+    "unet_manual": 0.6001300708708066,
+    "unet_weak_then_manual": 0.5997374649103226
+  },
+  "thresholds": {
+    "vh_threshold": -23,
+    "random_forest": 0.7,
+    "unet_manual": 0.4,
+    "unet_weak_then_manual": 0.2
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "split_counts": {
+    "train": 252,
+    "valid": 89,
+    "test": 90,
+    "bolivia": 15,
+    "weak_train": 80
+  },
+  "ignored_label_loss_and_metrics": true,
+  "model_reloads": [
+    {
+      "model": "vh_threshold",
+      "chips": 8,
+      "identical_predictions": true
+    },
+    {
+      "model": "random_forest",
+      "chips": 8,
+      "identical_predictions": true
+    },
+    {
+      "model": "unet_manual",
+      "chips": 8,
+      "identical_predictions": true
+    },
+    {
+      "model": "unet_weak_then_manual",
+      "chips": 8,
+      "identical_predictions": true
+    }
+  ],
+  "geotiff_shape_crs_transform_and_nodata": true,
+  "aggregate_scores_recomputed": true
+}

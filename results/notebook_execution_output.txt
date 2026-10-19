@@ -1,0 +1,21 @@
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+Completed code cell at notebook index 3
+Completed code cell at notebook index 5
+Completed code cell at notebook index 7
+Completed code cell at notebook index 9
+Completed code cell at notebook index 11
+Completed code cell at notebook index 13
+Completed code cell at notebook index 15
+Completed code cell at notebook index 17
+Completed code cell at notebook index 19
+Completed code cell at notebook index 21
+Completed code cell at notebook index 23
+Completed code cell at notebook index 25
+Completed code cell at notebook index 27
+Completed code cell at notebook index 29
+{
+  "executed_code_cells": 14,
+  "errors": 0,
+  "elapsed_seconds": 5.738296291092411,
+  "method": "nbclient with a real IPython kernel using the project Python interpreter"
+}

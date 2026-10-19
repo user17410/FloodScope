@@ -1,0 +1,73 @@
+{
+  "source_grid": "512x512",
+  "experiment_grid": "256x256",
+  "splits": {
+    "train": 252,
+    "valid": 89,
+    "test": 90,
+    "bolivia": 15,
+    "weak_train": 80
+  },
+  "events": {
+    "train": [
+      "Ghana",
+      "India",
+      "Mekong",
+      "Nigeria",
+      "Pakistan",
+      "Paraguay",
+      "Somalia",
+      "Spain",
+      "Sri-Lanka",
+      "USA"
+    ],
+    "valid": [
+      "Ghana",
+      "India",
+      "Mekong",
+      "Nigeria",
+      "Pakistan",
+      "Paraguay",
+      "Somalia",
+      "Spain",
+      "Sri-Lanka",
+      "USA"
+    ],
+    "test": [
+      "Ghana",
+      "India",
+      "Mekong",
+      "Nigeria",
+      "Pakistan",
+      "Paraguay",
+      "Somalia",
+      "Spain",
+      "Sri-Lanka",
+      "USA"
+    ],
+    "bolivia": [
+      "Bolivia"
+    ],
+    "weak_train": [
+      "Ghana",
+      "India",
+      "Mekong",
+      "Nigeria",
+      "Pakistan",
+      "Paraguay",
+      "Somalia",
+      "Spain",
+      "Sri-Lanka",
+      "USA"
+    ]
+  },
+  "overlapping_weak_chips_removed": [],
+  "disjoint_chip_ids": true,
+  "bolivia_excluded_from_development": true,
+  "finite_images": true,
+  "label_values": [
+    -1,
+    0,
+    1
+  ]
+}

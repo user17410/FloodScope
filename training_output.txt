@@ -1,0 +1,55 @@
+Fixed split sizes: {'train': 252, 'valid': 89, 'test': 90, 'bolivia': 15, 'weak_train': 80}
+Random forest: validation IoU=0.5986
+unet_manual: epoch 01/18, loss=1.3673, validation IoU=0.4666
+unet_manual: epoch 02/18, loss=1.2061, validation IoU=0.5555
+unet_manual: epoch 03/18, loss=1.1342, validation IoU=0.5680
+unet_manual: epoch 04/18, loss=1.0623, validation IoU=0.5763
+unet_manual: epoch 05/18, loss=0.9964, validation IoU=0.5734
+unet_manual: epoch 06/18, loss=0.9493, validation IoU=0.5821
+unet_manual: epoch 07/18, loss=0.8762, validation IoU=0.5860
+unet_manual: epoch 08/18, loss=0.8125, validation IoU=0.5658
+unet_manual: epoch 09/18, loss=0.7768, validation IoU=0.5975
+unet_manual: epoch 10/18, loss=0.7441, validation IoU=0.5869
+unet_manual: epoch 11/18, loss=0.6752, validation IoU=0.5595
+unet_manual: epoch 12/18, loss=0.6791, validation IoU=0.5530
+unet_manual: epoch 13/18, loss=0.6920, validation IoU=0.5870
+unet_manual: epoch 14/18, loss=0.6509, validation IoU=0.5921
+unet_manual: epoch 15/18, loss=0.6169, validation IoU=0.5992
+unet_manual: epoch 16/18, loss=0.5969, validation IoU=0.5968
+unet_manual: epoch 17/18, loss=0.6133, validation IoU=0.6001
+unet_manual: epoch 18/18, loss=0.5810, validation IoU=0.5987
+unet_weak_then_manual: weak pretraining 1/4, loss=1.4663
+unet_weak_then_manual: weak pretraining 2/4, loss=1.3550
+unet_weak_then_manual: weak pretraining 3/4, loss=1.2908
+unet_weak_then_manual: weak pretraining 4/4, loss=1.2508
+unet_weak_then_manual: epoch 01/18, loss=1.1883, validation IoU=0.5566
+unet_weak_then_manual: epoch 02/18, loss=1.1070, validation IoU=0.5280
+unet_weak_then_manual: epoch 03/18, loss=1.0588, validation IoU=0.5650
+unet_weak_then_manual: epoch 04/18, loss=0.9984, validation IoU=0.5759
+unet_weak_then_manual: epoch 05/18, loss=0.9451, validation IoU=0.5784
+unet_weak_then_manual: epoch 06/18, loss=0.9001, validation IoU=0.5732
+unet_weak_then_manual: epoch 07/18, loss=0.8143, validation IoU=0.5900
+unet_weak_then_manual: epoch 08/18, loss=0.7456, validation IoU=0.5881
+unet_weak_then_manual: epoch 09/18, loss=0.7188, validation IoU=0.5858
+unet_weak_then_manual: epoch 10/18, loss=0.6915, validation IoU=0.5808
+unet_weak_then_manual: epoch 11/18, loss=0.6246, validation IoU=0.5792
+unet_weak_then_manual: epoch 12/18, loss=0.6663, validation IoU=0.5925
+unet_weak_then_manual: epoch 13/18, loss=0.6804, validation IoU=0.5951
+unet_weak_then_manual: epoch 14/18, loss=0.6296, validation IoU=0.5948
+unet_weak_then_manual: epoch 15/18, loss=0.5878, validation IoU=0.5989
+unet_weak_then_manual: epoch 16/18, loss=0.5782, validation IoU=0.5842
+unet_weak_then_manual: epoch 17/18, loss=0.6045, validation IoU=0.5924
+unet_weak_then_manual: epoch 18/18, loss=0.5585, validation IoU=0.5997
+Model selection frozen before test scoring: unet_manual
+valid   vh_threshold             water IoU=0.5194
+valid   random_forest            water IoU=0.5986
+valid   unet_manual              water IoU=0.6001
+valid   unet_weak_then_manual    water IoU=0.5997
+test    vh_threshold             water IoU=0.5658
+test    random_forest            water IoU=0.6283
+test    unet_manual              water IoU=0.6348
+test    unet_weak_then_manual    water IoU=0.6343
+bolivia vh_threshold             water IoU=0.6139
+bolivia random_forest            water IoU=0.5970
+bolivia unet_manual              water IoU=0.6294
+bolivia unet_weak_then_manual    water IoU=0.6240
